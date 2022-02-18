@@ -45,52 +45,52 @@ namespace LeitorUnderscore
                 linhatres += posicaoTerceiraLinha[coluna];
 
 
-                if (linhaUm == " __ " && linhaDois == "|  |" && linhatres == "|__|")
+                if (linhaUm == " __ " && linhaDois == "|  |" && linhatres == "|__|") // VERIFICAÇÃO 0
                 {
                     Console.Write("0");
                 }
 
-                if (linhaUm == "    " && linhaDois == "   |" && linhatres == "   |")
+                if (linhaUm == "    " && linhaDois == "   |" && linhatres == "   |")// VERIFICAÇÃO 1
                 {
                     Console.Write("1");
                 }
 
-                if (linhaUm == " __ " && linhaDois == " __|" && linhatres == "|__ ")
+                if (linhaUm == " __ " && linhaDois == " __|" && linhatres == "|__ ")// VERIFICAÇÃO 2
                 {
                     Console.Write("2");
                 }
 
-                if (linhaUm == " __ " && linhaDois == " __|" && linhatres == " __|")
+                if (linhaUm == " __ " && linhaDois == " __|" && linhatres == " __|")// VERIFICAÇÃO 3
                 {
                     Console.Write("3");
                 }
 
-                if (linhaUm == "    " && linhaDois == "|__|" && linhatres == "   |")
+                if (linhaUm == "    " && linhaDois == "|__|" && linhatres == "   |")// VERIFICAÇÃO 4
                 {
                     Console.Write("4");
                 }
 
-                if (linhaUm == " __ " && linhaDois == "|__ " && linhatres == " __|")
+                if (linhaUm == " __ " && linhaDois == "|__ " && linhatres == " __|")// VERIFICAÇÃO 5
                 {
                     Console.Write("5");
                 }
 
-                if (linhaUm == " __ " && linhaDois == "|__ " && linhatres == "|__|")
+                if (linhaUm == " __ " && linhaDois == "|__ " && linhatres == "|__|")// VERIFICAÇÃO 6
                 {
                     Console.Write("6");
                 }
 
-                if (linhaUm == " __ " && linhaDois == "   |" && linhatres == "   |")
+                if (linhaUm == " __ " && linhaDois == "   |" && linhatres == "   |")// VERIFICAÇÃO 7
                 {
                     Console.Write("7");
                 }
 
-                if (linhaUm == " __ " && linhaDois == "|__|" && linhatres == "|__|")
+                if (linhaUm == " __ " && linhaDois == "|__|" && linhatres == "|__|")// VERIFICAÇÃO 8
                 {
                     Console.Write("8");
                 }
 
-                if (linhaUm == " __ " && linhaDois == "|__|" && linhatres == " __|")
+                if (linhaUm == " __ " && linhaDois == "|__|" && linhatres == " __|")// VERIFICAÇÃO 9
                 {
                     Console.Write("9");
                 }
